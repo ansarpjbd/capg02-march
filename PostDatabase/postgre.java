@@ -80,4 +80,43 @@ Employee
 {
 int id;
 String name;
+String salary;
+int age;
+date doj;
 }
+
+class dept
+{
+	int id;
+	String name;
+	String location
+}
+
+
+
+#Data type in Postgre SQl
+datatype-->int --it is used to store the int type of value
+       --->varchar --it is used to store the string with lenght
+
+ id     name
+ 
+create table employee(id int, name varchar(10));
+
+//insert value into table
+//insert into tablename(col list) values (values list);
+insert into employee(id,name) values(1001,"umesh");
+
+//select (need to display the data )
+//select * from tablename;
+select * from employee;
+
+select id from employee;
+
+
+//udate
+//update table name set col=value, col2 =value ,col3=value where condition
+update employee set name='kkk' where id=1001
+
+//delete 
+//delete from table name where and condition
+delete from employee where id=1001;
