@@ -120,3 +120,52 @@ update employee set name='kkk' where id=1001
 //delete 
 //delete from table name where and condition
 delete from employee where id=1001;
+
+
+
+//how to create database
+//how to create table
+
+//sql cluses which will help you get the data 
+//build in method to get the data 
+
+//sort the data
+//order by 
+select * from employee order by id;
+//ASC--ascending order
+//DESC--descending order
+
+//count
+//total number of rows
+//select count(*) from employee;
+
+//sum
+//select sum(id) from employee;
+
+//min
+//select min(id) from employee;
+
+//max
+>find th maximum from all the record
+select max(id) from employee;
+
+//distinct
+>unique value from employee records
+#Select distinct from employee;
+
+//where
+>it is used to add the condition
+select * from employee where  
+
+//creating releationship between two table
+group by
+>it will combine and give the group of data 
+select count(name) from employee group by name;
+
+
+//RENAME THE TABLE
+
+RENAME TABLE TABLENAME TO NEWTABLENAME
+
+>Alter table to add the column
+//ALTER TABLE emp ADD FOREIGN KEY (deptid) REFERENCES dept(id);
