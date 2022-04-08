@@ -162,6 +162,7 @@ group by
 >it will combine and give the group of data 
 select count(name) from employee group by name;
 
+//add testing 
 
 //RENAME THE TABLE
 
