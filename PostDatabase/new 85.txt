@@ -1,0 +1,23 @@
+Login modules afer even
+
+username : emailid
+password  : deletegate_type + del_no
+
+
+
+Normal :
+username  : secretariat@ism.org.my
+password : MAGD83
+
+
+Guest user :
+email : emaild id
+otp verifcation 
+
+
+Guest User : Attendee List () Not shown
+            : Networking Tab will have access 
+	        : virtual tab no
+            : 			
+ 
+
